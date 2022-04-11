@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+     <title>Список дел</title>
+
+     <link rel="stylesheet" type="text/css" href="styles.css">
+ </head>
+ <body>
+    <div class="container">
+        <h1>Список дел</h1>
+
+        <ul class="tasks"></ul>
+
+        <input class="new-task-text" type="text">
+
+        <button class="button add-button">Добавить</button>
+    </div>
+
+    <li class="task" data-template="task">
+        {{ text }}
+    </li>
+
+    <script src="script.js"></script>
+ </body>
+ </html>
